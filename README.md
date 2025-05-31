@@ -19,5 +19,3 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-The project is now live in [https://synapse-six-sand.vercel.app](https://synapse-six-sand.vercel.app) for production view.
