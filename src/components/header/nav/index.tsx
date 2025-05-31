@@ -1,12 +1,13 @@
 'use client'
 
 import styles from './style.module.scss';
-import LinkPage from '../link';
+import LinkPage from './link/index';
+import Curve from './curve';
 
 import React, { useState } from 'react'
 import { motion } from 'framer-motion';
 import { usePathname } from 'next/navigation';
-import { menuSlide } from '../../utils/animation';
+import { menuSlide } from '../../../utils/animation';
 
 const navItems = [
     {
@@ -64,6 +65,7 @@ export default function Navbar() {
                     <a href='https://linkedin.com'>LinkedIn</a>
                 </div>
             </div>
+            <Curve />
         </motion.div>
     )
 
