@@ -1,0 +1,15 @@
+.link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  letter-spacing: -1px;
+
+  .indicator {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(140, 140, 140);
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+  }
+}
