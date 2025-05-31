@@ -6,7 +6,7 @@ import LinkPage from '../link';
 import React, { useState } from 'react'
 import { motion } from 'framer-motion';
 import { usePathname } from 'next/navigation';
-import { menuSlide } from '../header/animation';
+import { menuSlide } from '../../utils/animation';
 
 const navItems = [
     {
