@@ -1,10 +1,16 @@
 ## Curved Menu
 
-A mini project of creating a curved menu using Next.js and Framer Motion. Inspired from https://dennissnellenberg.com/
+A curved menu project using Next.js and Motion (prev. Framer Motion). Inspired from https://dennissnellenberg.com/
 
-<!-- GIF here -->
+![Curved Menu](public/assets/curved-menu.gif)
 
-### Usage:
+### Usage
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/arvinbuid/curved-menu.git
+```
 
 #### Install npm dependencies
 
